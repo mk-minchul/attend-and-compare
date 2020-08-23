@@ -1,0 +1,8 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  MASK_ON: True
+  RESNETS:
+    DEPTH: 50
+    MODULE: "acm_nh_32_loss0.1"
+OUTPUT_DIR: "experiments/acm_nh32_loss0.1"
