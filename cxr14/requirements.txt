@@ -1,5 +1,5 @@
 numpy==1.18.1
-opencv-python==3.4.2.17
+opencv-python==4.2.0.32
 pandas==1.0.5
 Pillow==7.1.2
 Pillow-SIMD==7.0.0.post3
